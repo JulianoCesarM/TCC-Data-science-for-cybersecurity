@@ -1,0 +1,19 @@
+/*HEADERPAGE*/
+.header-page {
+  border-bottom: solid black 0.15em;
+  background-color: white;
+}
+.components {
+  font-size: 2em;
+  padding: 0.5em;
+  display: flex;
+  justify-content: left;
+  justify-content: space-between;
+}
+.contents {
+  display: flex;
+  justify-content: left;
+}
+.contents p {
+  margin-left: 2em;
+}
