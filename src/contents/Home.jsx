@@ -90,7 +90,7 @@ export default function Home() {
         </div>
       </div>
       <h2>
-        Link para o <Link to="/tcc">artigo</Link>
+        Link para o <Link to="/tcc">&#x000AB; artigo &#x000BB;</Link>
       </h2>
     </div>
   )

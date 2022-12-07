@@ -2,61 +2,80 @@ import "./StyleContents.css"
 export default function Datascience() {
   return (
     <div className="body-contents">
-      <h1 className="h1-class-intro">Data science</h1>
+      <h1 className="h1-class-intro">Resumo</h1>
       <p className="p-class-intro">
-        Data science é uma tecnologia que está recebendo um grande foco neste
-        momento, afinal estamos vivendo na era dos dados, o data science vem com
-        o intuito de colher informação importantes e informações que estão
-        ocultas a partir de um dataset, a era dos dados não começou ontem ela já
-        existe desde praticamente o início da computação ou era tecnológica,
-        porem só conseguimos compreender qual a importância dos dados ou como
-        usá-los de maneira inteligente recentemente.
+        A ciência de dados é o estudo de dados para extrair insights
+        significativos para tomadas de decisão. É uma abordagem multidisciplinar
+        que combina princípios e práticas das áreas de matemática, estatística,
+        inteligência artificial e engenharia da computação para analisar grandes
+        quantidades de dados. Essa análise ajuda os cientistas de dados a fazer
+        e responder perguntas de como que aconteceu, por que aconteceu, o que
+        acontecerá e o que pode ser feito com os resultados. &#x00028;AWS
+        Amazon, 2022&#x00029;
       </p>
       <p className="p-class-intro">
-        Mas afinal o que é data science, de uma forma mais específica é um
-        conglomerado de técnicas ou tecnologia externas que ao junta-las se
-        torna oque chamamos de data science, as tecnológias são,
+        Segundo o livro O conceito de Data Science &#x00028;2020&#x00029;, por
+        sua vez refere-se à coleta de dados de várias fontes para fins de
+        análise, com o objetivo de apoiar a tomada de decisões, utilizando
+        geralmente grandes quantidades de dados, de forma sistematizada.
+      </p>
+
+      <h1 className="h1-class-intro">Data science</h1>
+      <p className="p-class-intro">
+        A ciências de dados tem o intuito de colher informação importantes e que
+        estão ocultas a partir de uma dataset. A era dos dados não começou
+        ontem, ela já existe muito antes do início da computação ou da era
+        tecnológica, porém só foi compreendido qual a importância dos dados ou
+        como usá-los de maneira inteligente recentemente. &#x00022;O volume
+        acelerado de fontes de dados e, posteriormente, de dados, fez com que a
+        ciência de dados fosse um dos campos de crescimento mais rápido em todos
+        os setores&#x00022;. &#x00028;IBM, 2022&#x00029;
+      </p>
+      <p className="p-class-intro">
+        A ciências de dados, de uma forma mais específica é um conglomerado de
+        técnicas e tecnologias externas que formam um novo conceito de como
+        utilizar os dados, como por exemplo:
       </p>
       <p className="p-class-intro">
         <ul>
           <li>
-            Data set: pode ser uma coleção de arquivos em formatos variados ou
-            pode ser um grupo de registro, esses dados podem ser estruturados e
-            o mais comum seria em formato de tabela ou não estruturado que é
-            possivel, mas por ele não ser organizado seria mais difícil colher
-            informações.
+            Mineração de dados: &#x00022;A mineração de dados, também conhecida
+            como descoberta de conhecimento em dados &#x00028;KDD&#x00029;, é o
+            processo de descoberta de padrões e outras informações valiosas de
+            grandes conjuntos de dados. Dada a evolução da tecnologia de
+            armazenamento de dados e o crescimento da big data, a adoção de
+            técnicas de mineração de dados acelerou rapidamente nas últimas duas
+            décadas, ajudando as empresas a transformar seus dados brutos em
+            conhecimento útil&#x00022;. &#x00028;IBM, 2020&#x00029;
           </li>
           <li>
-            Data mining: &quot;é o processo de encontrar anomalias, padrões e
-            correlações em grandes conjuntos de dados para prever
-            resultados&quot; &#x00028;citação&#x00029;, então em um dataset a
-            data mining cria uma linha onde ficam os dados padrões e uma outra
-            linha para as anomalias onde vai ser feita uma análise sobre o
-            porque ela não seguiu o padrão e assim poder prever resultados.
+            Aprendizagem de máquina: &#x00022;Machine learning é um ramo da
+            inteligência artificial &#x00028;IA&#x00029; e da ciência da
+            computação que se concentra no uso de dados e algoritmos para imitar
+            reproduzir a maneira como os humanos aprendem, melhorando
+            gradualmente sua precisão&#x00022;. &#x00028;IBM, 2020&#x00029;
           </li>
           <li>
-            Machine learning: é uma parte fundamental da inteligência
-            artificial, ela parte do princípio que um sistema ou um algoritmo
-            use como base um Data set e uma Data analytics para se alimentar e
-            melhorar o seu próprio algoritmo para tomar decisões mais corretas.
+            Analise de dados: &#x00022;Data analytics ou simplesmente
+            &#x00022;análise de dados&#x00022; refere-se ao processo de examinar
+            conjuntos de dados em busca de conclusões sobre as informações ali
+            contidas, como padrões, oportunidades e mesmo brechas estratégias
+            que podem ser exploradas pela empresa&#x00022;. &#x00028;TOTVS,
+            2021&#x00029;
           </li>
-          <li>Data analitcs:</li>
-          <li>Statistics: </li>
-          <li></li>
         </ul>
       </p>
       <p className="p-class-intro">
-        Com base nessa lista podemos ver que data science se trata de uma
-        estrutura complexa de tecnologias que ao juntá-las podemos usar para
-        resolver problemas do mundo real, essa tecnologia já tem utilidade nos
-        dias atuais como em robótica, na área gigantesca de Internet of Things,
-        em carros autônomos, em publicidade&#x0002F;marketing, saúde e econômia.
-      </p>
-      <p className="p-class-intro">
-        Nos dias atuais além do que nos já conseguimos aplicar o data science,
-        ainda é incerto oque exatamente vamos conseguir fazer utilizando essa
-        tecnologia, mas certamente é uma tecnologia que grandes empresas e os
-        cientistas devem ficar de olhos abertos.
+        A ciências de dados se trata de uma estrutura complexa de tecnologias
+        que ao juntá-las pode ser usada para resolver problemas do mundo real.
+        &#x00022;As empresas podem obter inúmeros benefícios da ciência de
+        dados. Casos de uso comuns incluem otimização de processos por meio de
+        automação inteligente e segmentação e personalização aprimoradas para
+        melhorar a experiência do cliente &#x00028;CX&#x00029;&#x00022;. Segundo
+        IBM &#x00028;2022&#x00029;, essa tecnologia já tem utilidade em áreas
+        como robótica, Internet of Things, em carros autônomos e até mesmo em
+        publicidade&#x00022;marketing. Nos dias atuais, a data Science, ainda é
+        uma tecnologia recente que está em constante desenvolvimento.
       </p>
     </div>
   )

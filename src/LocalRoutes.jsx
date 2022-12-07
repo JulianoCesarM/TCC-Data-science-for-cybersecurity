@@ -11,7 +11,7 @@ export default function LocalRoutes() {
     <>
       <BrowserRouter>
         <HeaderPage />
-        <Routes classname="contents">
+        <Routes classname="contents-ROUTES">
           <Route path="/" element={<Home />}></Route>
           <Route path="/cyber-security" element={<Cybersecurity />}></Route>
           <Route path="/data-science" element={<Datascience />}></Route>
