@@ -18,8 +18,8 @@
   max-width: 40em;
   background-color: rgb(22, 22, 131);
 }
-.about-institutional, 
 /* Resto */
+.about-institutional,
 .body-contents {
   line-height: 1.6em;
   margin: 3em 10em;
@@ -46,12 +46,20 @@ li {
   margin: 0.4em 0;
 }
 
-/*Alunos*/
+/*Autores*/
+.div {
+  margin: 0.5em 1em;
+}
 .about-us {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0 1em;
   border: 0.1em solid black;
   max-width: max-content;
 }
+
 .div-img-assets {
+  margin: 1em;
   background-image: url("../assets/lena.jpg");
   background-repeat: no-repeat;
   width: 15em;
@@ -60,4 +68,8 @@ li {
 }
 .infos-pessoais {
   margin: 1em 1em;
+}
+h2 {
+  text-align: center;
+  padding: 1.5em;
 }

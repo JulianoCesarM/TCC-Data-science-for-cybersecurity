@@ -2,16 +2,6 @@ import { Link } from "react-router-dom"
 export default function Home() {
   return (
     <div className="body-home">
-      <div className="about-TCC">
-        <h1>Sobre o TCC</h1>
-        <p>
-          Data science para cibersegurança: utilizando metodos para neutralizar
-          hacks,
-          <Link to="TCC">
-            <strong> Clique aqui para acessar o TCC.</strong>
-          </Link>
-        </p>
-      </div>
       <div className="institutional-school">
         <div className="text-institutional">
           <h1 className="h-text">Centro Universitário Padre Anchieta</h1>
@@ -35,14 +25,73 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <h1 className="h-txt">Autores</h1>
-      <div className="about-us">
-        <div className="div-img-assets"></div>
-        <div className="infos-pessoais">
-          <h3 className="h-txt ">Juliano Cesar Magoga </h3>
-          <p className="p-txt">Idade: 23 Anos</p>
+      <div className="div">
+        <h1 className="h-txt">Autores</h1>
+        <div className="about-us">
+          <div className="div-img-assets"></div>
+          <div className="infos-pessoais">
+            <h3 className="h-txt ">Juliano Cesar Magoga </h3>
+            <p>email</p>
+            <p>linkedin</p>
+          </div>
+        </div>
+        <div className="about-us">
+          <div className="div-img-assets"></div>
+          <div className="infos-pessoais">
+            <h3 className="h-txt ">Henrique </h3>
+            <p>email</p>
+            <p>linkedin</p>
+          </div>
+        </div>
+        <div className="about-us">
+          <div className="div-img-assets"></div>
+          <div className="infos-pessoais">
+            <h3 className="h-txt ">Victor </h3>
+            <p>email</p>
+            <p>linkedin</p>
+          </div>
+        </div>
+        <div className="about-us">
+          <div className="div-img-assets"></div>
+          <div className="infos-pessoais">
+            <h3 className="h-txt ">Luiz </h3>
+            <p>email</p>
+            <p>linkedin</p>
+          </div>
+        </div>
+        <img
+          src="../assets/lena.jpg"
+          alt="Girl in a jacket"
+          width="500"
+          height="600"
+        ></img>
+        <div className="about-us">
+          <div className="div-img-assets"></div>
+          <div className="infos-pessoais">
+            <h3 className="h-txt ">Jonathan </h3>
+            <p>email</p>
+            <p>linkedin</p>
+          </div>
         </div>
       </div>
+      <div className="div">
+        <h1 className="h-txt">Autores</h1>
+        <div className="about-us">
+          <div className="div-img-assets"></div>
+          <div className="infos-pessoais">
+            <h3 className="h-txt ">Cleyton </h3>
+          </div>
+        </div>
+        <div className="about-us">
+          <div className="div-img-assets"></div>
+          <div className="infos-pessoais">
+            <h3 className="h-txt ">Henrique </h3>
+          </div>
+        </div>
+      </div>
+      <h2>
+        Link para o <Link to="/tcc">artigo</Link>
+      </h2>
     </div>
   )
 }

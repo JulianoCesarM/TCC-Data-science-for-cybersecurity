@@ -9,17 +9,12 @@ export default function HeaderPage() {
         </p>
         <div className="contents">
           <p>
-            <Link to="/cyber-security">Cybersecurity</Link>
+            <Link to="/cyber-security">Cibersegurança</Link>
           </p>
           <p>
-            <Link to="/data-science">Data science</Link>
+            <Link to="/data-science">Ciências de dados</Link>
           </p>
         </div>
-      </div>
-      <div>
-        <p>
-          <Link to="/tcc">NOME TCC</Link>
-        </p>
       </div>
     </div>
   )
