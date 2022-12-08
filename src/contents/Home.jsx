@@ -12,16 +12,16 @@ export default function Home() {
             1941, liderando um grupo de professores, propõe a criação das
             Escolas Padre Anchieta, cujo patrono está ligado ao propósito
             educacional brasileiro. Sob esse ideal, tem início o funcionamento
-            da escola, em 1942, com o antigo curso Propedêutico (Ginásio
-            Comercial) e o Curso de Contador (atual Técnico de Contabilidade).
-            Acompanhando o crescimento de Jundiaí e atendendo as necessidades de
-            sua população, a direção das Escolas Padre Anchieta, em mais de 60
-            anos de atividades, tem oferecido à região cursos de alta
-            qualidade.Na educação infantil e no ensino fundamental, tendo como
-            preocupação formar a base do desenvolvimento escolar, as Escolas
-            Padre Anchieta vem trabalhando com um sistema já desenvolvido,
-            reconhecido e respeitado no país - Sistema Moderna - que objetiva a
-            formação integral do aluno.
+            da escola, em 1942, com o antigo curso Propedêutico &#x00028;Ginásio
+            Comercial&#x00029; e o Curso de Contador &#x00028;atual Técnico de
+            Contabilidade&#x00029;. Acompanhando o crescimento de Jundiaí e
+            atendendo as necessidades de sua população, a direção das Escolas
+            Padre Anchieta, em mais de 60 anos de atividades, tem oferecido à
+            região cursos de alta qualidade.Na educação infantil e no ensino
+            fundamental, tendo como preocupação formar a base do desenvolvimento
+            escolar, as Escolas Padre Anchieta vem trabalhando com um sistema já
+            desenvolvido, reconhecido e respeitado no país - Sistema Moderna -
+            que objetiva a formação integral do aluno.
           </p>
         </div>
       </div>
@@ -59,12 +59,6 @@ export default function Home() {
             <p>linkedin</p>
           </div>
         </div>
-        <img
-          src="../assets/lena.jpg"
-          alt="Girl in a jacket"
-          width="500"
-          height="600"
-        ></img>
         <div className="about-us">
           <div className="div-img-assets"></div>
           <div className="infos-pessoais">
@@ -75,7 +69,7 @@ export default function Home() {
         </div>
       </div>
       <div className="div">
-        <h1 className="h-txt">Autores</h1>
+        <h1 className="h-txt">Orientador do TCC</h1>
         <div className="about-us">
           <div className="div-img-assets"></div>
           <div className="infos-pessoais">
