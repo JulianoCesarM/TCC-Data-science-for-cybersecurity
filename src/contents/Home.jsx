@@ -32,7 +32,12 @@ export default function Home() {
           <div className="infos-pessoais">
             <h3 className="h-txt ">Juliano Cesar Magoga </h3>
             <p>email</p>
-            <p>linkedin</p>
+            <p>
+              linkedin:{" "}
+              <a href="https://www.linkedin.com/in/juliano-cesar-magoga-a57749233/">
+                linkedin.com/in/juliano-cesar-magoga-a57749233
+              </a>
+            </p>
           </div>
         </div>
         <div className="about-us">
