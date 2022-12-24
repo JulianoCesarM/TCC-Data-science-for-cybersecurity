@@ -4,20 +4,24 @@ export default function TCC() {
     <div className="body-contents">
       <h2>RESUMO</h2>
       <p>
-        Enfatizando a importância da Cibersegurança em ciência de dados, neste
+        Enfatizando a importância da Ciência de Dados em Cibersegurança, neste
         artigo será visto algumas formas de aplicação dessas tecnologias em
         conjunto, baseadas em Machine Learning, com tomadas de decisões
         inteligentes para promover segurança aos sistemas. O objetivo deste
-        artigo foi dar um conceito sobre o pensamento de ciência de dados e
+        artigo foi dar um conceito sobre o pensamento de Ciência de dados e
         Cibersegurança. Foi realizado a explanação de vários métodos em Machine
         Learning com uma estrutura em várias fases consistentes em coleta de
-        dados, modelagem e segurança. No âmbito geral, será visto métodos
-        relevantes com aplicabilidades para tomadas de decisões inteligentes em
-        perspectivas de aprendizado de máquina.
+        dados, modelagem e segurança. No âmbito geral, serão apresentados
+        métodos relevantes com aplicabilidades para tomadas de decisões
+        inteligentes em perspectivas de aprendizado de máquina.
+      </p>
+      <p>
+        Palavras-Chave: Ciências de dados. Aprendizagem Má-quina.
+        Cibersegurança.
       </p>
       <h1 className="h-txt">
-        Título: Data science para cibersegurança: utilizando metodos para
-        neutralizar hacks
+        Data science para cibersegurança: utilizando metodos para neutralizar
+        hacks
       </h1>
       <div className="txt-contents">
         <h2>Desenvolvimento</h2>
@@ -28,7 +32,7 @@ export default function TCC() {
           sistemas de Cibersegurança inteligente, pelo fato de segurança e
           informação&#x0002F;dados estarem interligados. Quando se procura
           detectar ameaças virtuais como vírus e malwares, sempre é analisado a
-          segurança nas informações como, arquivos, relatórios, pacotes de
+          segurança nas informações como: arquivos, relatórios, pacotes de
           internet, entre outras fontes relevantes. &#x00028;Journal of Big
           Data, 2020&#x00029;
         </p>
@@ -53,12 +57,9 @@ export default function TCC() {
         </p>
         <p className="p-txt">
           A ciência de dados pode fazer uma incrível mudança na tecnologia e
-          suas operações, onde o algoritmo de aprendizado de máquinas pode ser
-          usado para aprender ou extrair os mínimos detalhes sobre incidentes
-          relacionados à segurança a partir das informações disponibilizadas
-          naquele treinamento para detecção, prever ataques de malwares e
-          extrair diretrizes de políticas. &#x00028;Journal of Big Data,
-          2020&#x00029;
+          suas operações, onde o algoritmo de aprendizado de máquina pode ser
+          usado para aprender a extrair os dados de treinamento para detecção e
+          prevenção de ataques. &#x00028;Journal of Big Data, 2020&#x00029;
         </p>
         <p className="p-txt">
           Na atualidade, a indústria de segurança está
